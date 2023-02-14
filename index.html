@@ -7,6 +7,27 @@
   <body>
     <a href="/.netlify/functions/func1">Run netlify function</a>
 
-    See the console for the output
+    <div>
+        <p class="name">Local function test</p>
+        <button onclick="run()">Execute</button>
+    </div>
+      
+
+    <script>
+        const name = document.querySelector(".name");
+        import { Octokit } from "@octokit/core";
+
+        function run() {
+
+            const octokit = new Octokit({});
+            const response = octokit.request("GET /orgs/{org}/repos", {
+                org: "vfdev-5",
+                type: "public",
+            });
+
+            name.innerHTML = "Response: ";
+        }
+    </script>
+
   </body>
 </html>

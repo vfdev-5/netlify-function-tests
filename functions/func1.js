@@ -2,7 +2,7 @@
 // `external_node_modules` of [functions] in netlify.toml
 // They are required for this function to run
 
-import { Octokit } from '@octokit/core'
+const { Octokit } = require("@octokit/core");
 
 // This function is the one Netlify function runs on
 // https://docs.netlify.com/functions/build-with-javascript/#synchronous-function-format
@@ -16,6 +16,6 @@ exports.handler = async function (event, _) {
 
   return {
     statusCode: 200,
-    body: response
+    body: "It works"
   }
 }
