@@ -1,0 +1,11 @@
+{
+    "name": "@pytorch-ignite/code-generator",
+    "version": "0.2.0",
+    "scripts": {
+      "dev": "netlify dev --context production"
+    },
+    "devDependencies": {
+      "@octokit/core": "^4.2.0"
+    }
+  }
+  
