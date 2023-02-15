@@ -1,14 +1,15 @@
 {
-    "name": "@pytorch-ignite/code-generator",
-    "version": "0.2.0",
-    "scripts": {
-      "dev": "netlify dev --context production",
-      "build": "vite"
-    },
-    "devDependencies": {
-      "@octokit/core": "^4.2.0",
-      "vite": "^2.7.13",
-      "vue": "^3.2.30"      
-    }
+  "name": "netlify-function-tests",
+  "version": "0.2.0",
+  "scripts": {
+    "dev": "netlify dev --context production",
+    "build": "vite"
+  },
+  "devDependencies": {
+    "@octokit/core": "^4.2.0",
+    "@vitejs/plugin-vue": "^2.1.0",
+    "vite": "^2.7.13",
+    "vue": "^3.2.30",
+    "isomorphic-fetch": "^3.0.0"
   }
-  
+}
