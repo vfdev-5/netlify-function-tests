@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "scripts": {
     "dev": "netlify dev --context production",
-    "build": "vite"
+    "build": "vite build"
   },
   "devDependencies": {
     "@octokit/core": "^4.2.0",
