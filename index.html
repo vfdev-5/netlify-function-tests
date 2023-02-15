@@ -5,17 +5,14 @@
     <title>Test netlify functions</title>
   </head>
   <body>
-    <a href="/.netlify/functions/func1">Run netlify function</a>
-        
     <div>
-      <button onclick="fetchRepos()"> Fetch </button>
+      <a href="/.netlify/functions/func1">Run custom function as netlify </a>
     </div>
-
+    
     <div>
-      <p class="name">freeCodeCamp</p>
-      <button onclick="changeColor()">Change to Blue</button>
-    </div>    
-
+      <button onclick="fetchRepos()"> Run custom function on the frontend</button>
+    </div>
+    
     <script type="module" src="./main.js"></script>
 
   </body>
