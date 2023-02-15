@@ -13,4 +13,4 @@
 [functions]
   directory = "functions"
   node_bundler = "esbuild"
-  external_node_modules = ["@octokit/core"]
+  external_node_modules = ["@octokit/core", "isomorphic-fetch"]
