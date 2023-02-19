@@ -2,10 +2,10 @@
   "name": "netlify-function-tests",
   "version": "0.2.0",
   "scripts": {
-    "dev": "netlify dev --context production",
+    "dev": "vite dev",
     "build": "vite build"
   },
-  "devDependencies": {
+  "dependencies": {
     "@octokit/core": "^4.2.0",
     "@vitejs/plugin-vue": "^2.1.0",
     "vite": "^2.7.13",
